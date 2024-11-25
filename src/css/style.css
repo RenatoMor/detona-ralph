@@ -1,0 +1,79 @@
+@import url('./reset.css');    
+
+
+body {
+    background: linear-gradient(90deg, #242328, #212327);
+    font-family: "Press Start 2P", display-swap;
+}
+
+/*? header----------------------------------------------- */
+
+.title {
+    color: blueviolet;
+    font-size: 32px;
+
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+
+    height: 90px;
+    width: 100%;
+    background-color: #000;
+}
+
+.result {
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.panel {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    border: 1px solid blueviolet;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../img/wall.png');
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid blueviolet;
+    background: linear-gradient(to right, rgba(36, 35, 40, 0), hwb(271 17% 11%), rgba(33, 35, 39, 0));
+}
+
+.enemy {
+    background-image: url('../img/ralph.png'); 
+    background-size: cover;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lives img {
+    height: 60px;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;    
+}
